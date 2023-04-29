@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(22, 16, 57);
+    font-family: sans-serif; 
+}
+
+#title{
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    font-family: sans-serif; 
+}
+
+#title2{
+    color: white;
+    text-align: center;
+    font-size: 100%;
+}
+
+#TitleText{
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 1px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchbar{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 24px;
+    background-color: rgb(42, 23, 151);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px
+}
+
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: white
+}
+
+::placeholder{
+    color: white;
+}
+
+.searchbar button img{ 
+    width: 50px;
+    border-radius: 60px;
+}
+
+.searchbar button{
+    border:0px;
+    border-radius: 40px;
+    background: #58629B;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.card{
+    height: 400px;
+    width: 270px;
+    display: inline-block;
+    background-color: rgb(42, 23, 151);
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgb(166, 12, 232);
+    transition: all 1s ease;
+}
+
+#cardText{
+    color:white;
+}
+
+.card button{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.card-image{
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.resto-image{
+    background-image: url('images/1.jpg');
+}
